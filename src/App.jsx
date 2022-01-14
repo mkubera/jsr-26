@@ -11,8 +11,6 @@ const App = () => {
     <div className="App">
       <header className="App-header">
         <Input onClickSendDataToParent={(e) => console.log(e.target.value)} />
-        <Input onClickSendDataToParent={(e) => console.log(e.target.value)} />
-        <Input onClickSendDataToParent={(e) => console.log(e.target.value)} />
 
         <Counter
           initialCounter={0}
@@ -27,8 +25,6 @@ const App = () => {
           onClickSendDataToParent={(e) => console.log(e.target.value)}
         />
 
-        <Products />
-        <Products />
         <Products />
       </header>
     </div>
