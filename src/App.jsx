@@ -3,6 +3,7 @@ import "./App.css";
 import Products from "./components/Products";
 import Counter from "./components/Counter";
 import Input from "./components/Input";
+import Chuck from "./components/Chuck";
 
 // React functional component
 const App = () => {
@@ -11,6 +12,8 @@ const App = () => {
     <div className="App">
       <header className="App-header">
         <Input onClickSendDataToParent={(e) => console.log(e.target.value)} />
+
+        <Chuck />
 
         <Counter
           initialCounter={0}
