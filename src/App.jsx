@@ -4,6 +4,8 @@ import Products from "./components/Products";
 import Counter from "./components/Counter";
 import Input from "./components/Input";
 import Chuck from "./components/Chuck";
+import CounterClass from "./components/CounterClass";
+import LoadingHello from "./components/LoadingHello";
 
 // React functional component
 const App = () => {
@@ -11,22 +13,26 @@ const App = () => {
     // JSX
     <div className="App">
       <header className="App-header">
-        <Input onClickSendDataToParent={(e) => console.log(e.target.value)} />
+        {/* <Input onClickSendDataToParent={(e) => console.log(e.target.value)} /> */}
 
-        <Chuck />
+        {/* <Chuck /> */}
+
+        <LoadingHello />
+
+        <CounterClass initialCount={13} />
 
         <Counter
           initialCounter={0}
           onClickSendDataToParent={(e) => console.log(e)}
         />
-        <Counter
+        {/* <Counter
           initialCounter={5}
           onClickSendDataToParent={(e) => console.log("Hello")}
         />
         <Counter
           initialCounter={10}
           onClickSendDataToParent={(e) => console.log(e.target.value)}
-        />
+        /> */}
 
         <Products />
       </header>

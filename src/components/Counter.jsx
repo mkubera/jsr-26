@@ -9,6 +9,7 @@ const Counter = ({ initialCounter, onClickSendDataToParent }) => {
 
   return (
     <div>
+      <h3>Functional component</h3>
       <button onClick={increment}>+1</button>
       <p>{count}</p>
       <button onClick={decrement}>-1</button>
