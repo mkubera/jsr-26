@@ -6,6 +6,7 @@ import Input from "./components/Input";
 import Chuck from "./components/Chuck";
 import CounterClass from "./components/CounterClass";
 import LoadingHello from "./components/LoadingHello";
+import CurrencyApp from "./components/CurrencyApp";
 
 // React functional component
 const App = () => {
@@ -17,6 +18,8 @@ const App = () => {
 
         {/* <Chuck /> */}
 
+        <CurrencyApp />
+        {/* 
         <LoadingHello />
 
         <CounterClass initialCount={13} />
@@ -24,7 +27,7 @@ const App = () => {
         <Counter
           initialCounter={0}
           onClickSendDataToParent={(e) => console.log(e)}
-        />
+        /> */}
         {/* <Counter
           initialCounter={5}
           onClickSendDataToParent={(e) => console.log("Hello")}
@@ -34,7 +37,7 @@ const App = () => {
           onClickSendDataToParent={(e) => console.log(e.target.value)}
         /> */}
 
-        <Products />
+        {/* <Products /> */}
       </header>
     </div>
   );
