@@ -24,7 +24,6 @@ const CurrencyApp = () => {
     const chosenCurrencyValue = currencies.find(
       ({ code }) => code === chosenCurrency
     )?.mid;
-    console.log(chosenAmount, chosenCurrencyValue);
     return chosenAmount * chosenCurrencyValue;
   };
 

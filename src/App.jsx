@@ -1,11 +1,11 @@
 // import logo from "./logo.svg";
 import "./App.css";
-import Products from "./components/Products";
-import Counter from "./components/Counter";
-import Input from "./components/Input";
-import Chuck from "./components/Chuck";
-import CounterClass from "./components/CounterClass";
-import LoadingHello from "./components/LoadingHello";
+// import Products from "./components/Products";
+// import Counter from "./components/Counter";
+// import Input from "./components/Input";
+// import Chuck from "./components/Chuck";
+// import CounterClass from "./components/CounterClass";
+// import LoadingHello from "./components/LoadingHello";
 import CurrencyApp from "./components/CurrencyApp";
 
 // React functional component
